@@ -69,3 +69,53 @@ h1 {
 .faq__image {
     display: none;
 }
+
+@media(max-width: 1200px) {
+    .faq {
+        width: auto;
+        margin: 50px;
+    }
+}
+
+@media (max-width: 995px) {
+    .faq {
+        width: auto;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 820px) {
+    .faq {
+        width: 750px;
+    }
+
+    .faq__image {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .faq {
+        width: auto;
+    }
+
+    .faq__title {
+        font-size: 20px;
+    }
+
+    .faq__image--js {
+        width: 375px;
+        height: 275px;
+    }
+}
+
+@media (max-width: 310px) {
+    .faq {
+        width: auto;
+        margin: 20px;
+    }
+
+    .faq__title {
+        font-size: 17px;
+    }
+}
